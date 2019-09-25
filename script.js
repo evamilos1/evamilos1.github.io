@@ -1,1 +1,1 @@
-console.log("Hello world");
+var e,l,s,t,o={block:"div",style:["margin-top: 200px","height: 600px","backgroung-color: thistle","color: aliceblue","font-size: 30px"],class:"body__block_js",placeholder:"Первый блок"};e=JSON.stringify(o),l=JSON.parse(e),s=document.createElement(l.block),(t=document.getElementsByClassName("lamps")[0]).style=l.style[0],s.style.cssText=l.style,t.prepend(s);
